@@ -237,10 +237,10 @@ end
 
 -- Interface:
 do
-Library:SetWatermark("NoMoreLife#6829|| Click Ctrl For Open Menu")
+Library:SetWatermark(""Old | NoMoreLife#6829|| Click Ctrl For Open Menu")
 Library:Notify("Loading UI...")
 
-local Window = Library:CreateWindow("NoMoreLife#6829")
+local Window = Library:CreateWindow("Old | NoMoreLife#6829")
 
 do -- Gameplay
 local Tab = Window:AddTab("Gameplay")
@@ -319,8 +319,8 @@ local Tab = Window:AddTab("Settings")
 ThemeManager:SetLibrary(Library)
 SaveManager:SetLibrary(Library)
 
-ThemeManager:SetFolder("NoMoreLife#6829")
-SaveManager:SetFolder("NoMoreLife#6829")
+ThemeManager:SetFolder(""Old | NoMoreLife#6829")
+SaveManager:SetFolder(""Old | NoMoreLife#6829")
 
 SaveManager:IgnoreThemeSettings()
 SaveManager:SetIgnoreIndexes({ "MenuKeybind" })
@@ -590,4 +590,4 @@ for i, v in ipairs(InteractFolder:GetChildren()) do
 task.defer(onInteractAdded, v)
 end
 
-return Library:Notify("[NoMoreLife#6829] Loaded!")
+return Library:Notify("["Old | NoMoreLife#6829] Loaded!")
